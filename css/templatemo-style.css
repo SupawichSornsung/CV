@@ -23,11 +23,15 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #6b6b6b;
-  overflow-x: hidden;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    // <uniquifier>: Use a unique and descriptive class name // <weight>: Use a value from 400 to 700 .pixelify-sans-<uniquifier>
 }
 
 a,
@@ -90,7 +94,7 @@ a:hover {
 }
 
 .tm-brand-name {
-  font-size: 3.8rem;
+  font-size: 4.8rem;
 }
 
 .tm-brand-description {
@@ -149,13 +153,15 @@ a:hover {
 */
 
 #tmPortfolio {
-  padding-top: 80px;
+    padding-top: 80px;
+    background-color: rgba(0, 0, 0, 1.0)
 }
 
 .tm-portfolio-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    background-color: rgba(0, 0, 0, 1.0)
 }
 
 .tm-portfolio-name {
@@ -215,7 +221,7 @@ p {
   height: auto;
   min-height: 420px;
   margin-right: 35px;
-  background-color: white;
+  background-color: black;
   padding: 54px 34px 44px;
 }
 
